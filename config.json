@@ -1,10 +1,24 @@
 {
     "dorking": {
-      "illegal_words": ["buy", "paid"],
-      "legal_words": ["guide", "tutorial"],
-      "common_words": ["Corso", "CCNA"],
-      "good_websites": ["example.com", "trustedsite.com"],
-      "bad_websites": ["malicious.com", "phishingsite.com"]
+        "illegal_words": ["buy", "paid"],
+        "legal_words": ["guide", "tutorial"],
+        "common_words": ["Corso", "CCNA"],
+        "good_websites": ["example.com", "trustedsite.com"],
+        "bad_websites": ["malicious.com", "phishingsite.com"]
+    },
+    "scraping" :
+    {
+        "parameters" : 
+        {
+        "images" : true,
+        "keywords" : true,
+        "url" : true
+        },
+        "images_directory" : "images/",
+        "keywords_file" : "keywords.txt",
+        "url_file" : "url.txt",
+        "data_directory" : "data/"
+
     }
   }
   
