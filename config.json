@@ -1,0 +1,10 @@
+{
+    "dorking": {
+      "illegal_words": ["buy", "paid"],
+      "legal_words": ["guide", "tutorial"],
+      "common_words": ["Corso", "CCNA"],
+      "good_websites": ["example.com", "trustedsite.com"],
+      "bad_websites": ["malicious.com", "phishingsite.com"]
+    }
+  }
+  
